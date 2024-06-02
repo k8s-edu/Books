@@ -1,0 +1,16 @@
+apiVersion: v2
+appVersion: 0.8.2
+description: unofficial helm chart of MetalLB, bare-metal LoadBalancer
+home: https://github.com/metallb/metallb
+icon: https://iac-source.github.io/helm-charts/images/metallb-blue.png
+maintainers:
+- email: seongju.moon@linux.com
+  name: Seongju Moon
+- email: genuwoo.j.shim@gmail.com
+  name: Genuwoo Shim
+name: metallb
+sources:
+- https://github.com/metallb/metallb
+- https://iac-source.github.io/helm-charts
+type: application
+version: 0.1.1
