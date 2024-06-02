@@ -12,7 +12,7 @@ npm run dev
 
 ## 컨테이너 이미지 빌드 방법
 ```shell
-docker build -t <이미지 태그> --build-args=PAHSE=[blue|green]
+docker build -t <이미지 태그> --build-arg=PAHSE=[blue|green]
 # 예시 블루
 docker build -t dashboard:blue --build-arg=PAHSE=blue .
 # 예시 그린
