@@ -19,9 +19,9 @@ FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-ARG PAHSE
+ARG PHASE
 
-RUN export NEXT_PUBLIC_PHASE=${PAHSE} && npm run build
+RUN export NEXT_PUBLIC_PHASE=${PHASE} && npm run build
 
 FROM base AS runner
 WORKDIR /app
